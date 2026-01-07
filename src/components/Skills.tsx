@@ -17,11 +17,10 @@ const Skills = () => {
       title: 'Programming Languages',
       icon: Code,
       skills: [
-        { name: 'SQL', level: 90, color: 'from-blue-400 to-blue-600' },
+        { name: 'SQL', level: 95, color: 'from-blue-400 to-blue-600' },
         { name: 'Python', level: 90, color: 'from-green-400 to-green-600' },
-        { name: 'SQL', level: 90, color: 'from-blue-400 to-blue-600' },
         { name: 'Linux', level: 80, color: 'from-gray-400 to-gray-600' },
-        { name: 'Bash', level: 60, color: 'from-yellow-400 to-yellow-600' },      ]
+        { name: 'Bash', level: 75, color: 'from-yellow-400 to-yellow-600' },      ]
     },
     {
       title: 'Big Data & Processing',
