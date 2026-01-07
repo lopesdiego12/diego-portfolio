@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { 
   Code, 
   Database, 
@@ -119,6 +120,29 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
+            {/* Profile Picture */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="mb-8 flex justify-center lg:justify-start"
+            >
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-primary-400 to-primary-600 rounded-full blur-xl opacity-30 dark:opacity-20"></div>
+                <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl ring-4 ring-primary-100 dark:ring-primary-900">
+                  <Image
+                    src="/profile.jpeg"
+                    alt="Diego Lopes - Senior Data Engineer"
+                    width={192}
+                    height={192}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
+                </div>
+              </div>
+            </motion.div>
+
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
               Senior Data Engineer
             </h3>
