@@ -1,11 +1,11 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { 
-  Heart, 
-  Code, 
-  Mail, 
-  Phone, 
+import {
+  Heart,
+  Code,
+  Mail,
+  Phone,
   MapPin,
   ArrowUp,
   Database,
@@ -47,7 +47,6 @@ const Footer = () => {
 
   const services = [
     'Data Engineering',
-    'ETL Pipeline Development',
     'AI Engineering',
     'Data Analytics',
     'Data Architecture',
@@ -82,10 +81,10 @@ const Footer = () => {
                 <p className="text-primary-400 text-sm">Senior Data Engineer</p>
               </div>
             </div>
-            
+
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Passionate data engineer with 5+ years of experience building scalable data solutions. 
-              Specializing in cloud-native architectures, real-time processing, and analytics platforms 
+              Passionate data engineer with 5+ years of experience building scalable data solutions.
+              Specializing in cloud-native architectures, real-time processing, and analytics platforms
               that drive business growth.
             </p>
 
@@ -96,8 +95,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary-600" />
-                <a 
-                  href="mailto:lopesdiego12@gmail.com" 
+                <a
+                  href="mailto:lopesdiego12@gmail.com"
                   className="text-gray-300 hover:text-primary-400 transition-colors duration-200"
                 >
                   lopesdiego12@gmail.com
@@ -105,8 +104,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary-600" />
-                <a 
-                  href="tel:+31629191028" 
+                <a
+                  href="tel:+31629191028"
                   className="text-gray-300 hover:text-primary-400 transition-colors duration-200"
                 >
                   +31629191028
@@ -197,7 +196,7 @@ const Footer = () => {
               >
                 Terms of Service
               </a>
-              
+
               {/* Back to Top */}
               <motion.button
                 onClick={scrollToTop}
