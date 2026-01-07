@@ -57,24 +57,6 @@ const Experience = () => {
       location: 'Remote - Brazil',
       duration: 'Jul 2020 - Oct 2021',
       type: 'Full-time',
-      description: 'Developed and managed processes for ingesting data into data lakes and data warehouses, utilizing ETL/ELT tools and orchestration platforms.',
-      achievements: [
-        'Designed and implemented data ingestion processes using Pentaho and Streamsets',
-        'Managed data pipelines with Apache Airflow for efficient orchestration',
-        'Developed Python scripts to extract data from APIs',
-        'Utilized Git for version control and collaborative development',
-        'Ensured high data quality and reliability in data lake operations'
-      ],
-      technologies: ['Pentaho', 'Streamsets', 'Apache Airflow', 'Python', 'Git', 'Data Lake', 'ETL/ELT'],
-      icon: Database,
-      color: 'from-purple-600 to-purple-800'
-    },
-    {
-      title: 'Data Engineer - Tech Lead',
-      company: 'Parana Bank',
-      location: 'Brazil',
-      duration: 'Jul 2019 - Jul 2020',
-      type: 'Full-time',
       description: 'Served as an AWS consultant for data projects, leading the creation of data lakes for large financial institutions.',
       achievements: [
         'Designed and implemented data lakes using AWS EMR, S3, and Redshift',
@@ -85,6 +67,24 @@ const Experience = () => {
       ],
       technologies: ['AWS EMR', 'S3', 'EC2', 'API Gateway', 'Step Functions', 'Redshift', 'Athena', 'Glue'],
       icon: Cloud,
+      color: 'from-purple-600 to-purple-800'
+    },
+    {
+      title: 'Data Engineer - Tech Lead',
+      company: 'Parana Bank',
+      location: 'Brazil',
+      duration: 'Jul 2019 - Jul 2020',
+      type: 'Full-time',
+      description: 'Developed and managed processes for ingesting data into data lakes and data warehouses, utilizing ETL/ELT tools and orchestration platforms.',
+      achievements: [
+        'Designed and implemented data ingestion processes using Pentaho and Streamsets',
+        'Managed data pipelines with Apache Airflow for efficient orchestration',
+        'Developed Python scripts to extract data from APIs',
+        'Utilized Git for version control and collaborative development',
+        'Ensured high data quality and reliability in data lake operations'
+      ],
+      technologies: ['Pentaho', 'Streamsets', 'Apache Airflow', 'Python', 'Git', 'Data Lake', 'ETL/ELT'],
+      icon: Database,
       color: 'from-orange-600 to-orange-800'
     },
     {
@@ -317,7 +317,7 @@ const Experience = () => {
           <div className="bg-gradient-to-r from-primary-600 to-primary-700 text-white p-8 rounded-xl">
             <h3 className="text-2xl font-bold mb-4">Current Focus</h3>
             <p className="text-lg text-primary-100 max-w-3xl mx-auto">
-              Specializing in Azure data stack solutions, FinOps-driven data architecture, and modern data platforms with a focus on governance and scalability.
+              Specializing in data stack solutions, Databricks, DBT, Python and FinOps-driven data architecture, and modern data platforms with a focus on governance and scalability. Already worked with top 3 main cloud providers (AWS, Azure, GCP).
             </p>
           </div>
         </motion.div>
