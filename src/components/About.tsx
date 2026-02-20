@@ -146,7 +146,7 @@ const About = () => {
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
               Senior Data Engineer
             </h3>
-            
+            <div className="space-y-3 mb-6">
               <div className="flex items-center space-x-3">
                 <Users className="w-5 h-5 text-primary-600" />
                 <span className="text-gray-700 dark:text-gray-300">Remote & On-site Collaboration</span>
