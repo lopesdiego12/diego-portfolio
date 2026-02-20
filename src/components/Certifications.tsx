@@ -51,7 +51,7 @@ const EducationAndCertifications = () => {
     {
       title: 'Microsoft Certified: Azure Data Fundamentals',
       issuer: 'Microsoft',
-      date: 'Unknown',
+      date: '2025',
       verifyUrl: 'https://www.youracclaim.com/badges/67d75f8b-9ac4-4f60-bcff-1fa4c4cc5a69/public_url',
       icon: SiMicrosoftazure,
       type: 'certification',
@@ -59,7 +59,7 @@ const EducationAndCertifications = () => {
     {
       title: 'Databricks Generative AI Fundamentals',
       issuer: 'Databricks',
-      date: 'Unknown',
+      date: '2025',
       verifyUrl: 'https://credentials.databricks.com/ffeb85fa-382b-427d-88f1-c380726b3ec6#acc.51k9onqr',
       icon: SiDatabricks,
       type: 'certification',
@@ -67,7 +67,7 @@ const EducationAndCertifications = () => {
     {
       title: 'Introduction of FinOps Focus',
       issuer: 'FinOps Foundation',
-      date: 'Unknown',
+      date: '2025',
       verifyUrl: 'https://verify.skilljar.com/c/xp9n43dr3c2o',
       icon: Award,
       type: 'certification',
@@ -75,7 +75,7 @@ const EducationAndCertifications = () => {
     {
       title: 'AWS Generative AI for Executives',
       issuer: 'Amazon Web Services',
-      date: 'Unknown',
+      date: '2025',
       verifyUrl: 'https://drive.google.com/file/d/1yM1E9eKaM7aAUMA6Ot-yCnMM1sppfucI/view?usp=sharing',
       icon: SiAmazonaws,
       type: 'certification',
@@ -83,7 +83,7 @@ const EducationAndCertifications = () => {
     {
       title: 'AWS Community Builder',
       issuer: 'Amazon Web Services',
-      date: 'Unknown',
+      date: '2025',
       verifyUrl: 'https://aws.amazon.com/pt/developer/community/community-builders/community-builders-directory/?cb-cards.sort-by=item.additionalFields.cbName&cb-cards.sort-order=asc&awsf.builder-category=*all&awsf.location=*all&awsf.year=*all&cb-cards.q=Diego%2BLopes&cb-cards.q_operator=AND',
       icon: SiAmazonaws,
       type: 'certification',
@@ -91,7 +91,7 @@ const EducationAndCertifications = () => {
     {
       title: 'Informatica PowerCenter Developer',
       issuer: 'Informatica',
-      date: 'Unknown',
+      date: '2025',
       verifyUrl: 'https://drive.google.com/open?id=0BwVMJdGZ59i_V2M4S3NhYi1kdms',
       icon: Award,
       type: 'certification',
@@ -99,7 +99,7 @@ const EducationAndCertifications = () => {
     {
       title: 'AWS Technical Essentials',
       issuer: 'Amazon Web Services',
-      date: 'Unknown',
+      date: '2025',
       verifyUrl: 'https://drive.google.com/file/d/0BwVMJdGZ59i_dndFSXYwaGVCaWZKS2R1Yy02YWFWV2ItMmg0/view',
       icon: SiAmazonaws,
       type: 'certification',
@@ -107,7 +107,7 @@ const EducationAndCertifications = () => {
     {
       title: 'RapidMiner',
       issuer: 'RapidMiner',
-      date: 'Unknown',
+      date: '2025',
       verifyUrl: 'https://drive.google.com/open?id=1dxCU99reXHLH_jnnb_mnmlx5VEpAb9V5',
       icon: Award,
       type: 'certification',
@@ -115,7 +115,7 @@ const EducationAndCertifications = () => {
     {
       title: 'DB2',
       issuer: 'IBM',
-      date: 'Unknown',
+      date: '2025',
       verifyUrl: 'https://drive.google.com/open?id=0BwVMJdGZ59i_YVdmeXdiSEtuZ0U',
       icon: Award,
       type: 'certification',
