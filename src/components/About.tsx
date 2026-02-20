@@ -147,11 +147,6 @@ const About = () => {
               Senior Data Engineer
             </h3>
             
-            <div className="space-y-4 mb-8">
-              <div className="flex items-center space-x-3">
-                <MapPin className="w-5 h-5 text-primary-600" />
-                <span className="text-gray-700 dark:text-gray-300">Den Haag, Netherlands</span>
-              </div>
               <div className="flex items-center space-x-3">
                 <Users className="w-5 h-5 text-primary-600" />
                 <span className="text-gray-700 dark:text-gray-300">Remote & On-site Collaboration</span>
@@ -170,7 +165,7 @@ const About = () => {
               </p>
               
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-                Currently based in Den Haag, I specialize in designing and implementing 
+                I have been specialize in designing and implementing 
                 cloud-native data solutions that handle massive scale while maintaining 
                 high performance and reliability. I'm passionate about leveraging modern 
                 technologies to solve complex data challenges.
