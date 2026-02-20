@@ -18,7 +18,6 @@ const Experience = () => {
     {
       title: 'Data & AI Solution Architect',
       company: 'Capgemini',
-      location: 'Den Haag, Netherlands',
       duration: 'Jul 2023 - Present',
       type: 'Full-time',
       description: 'Responsible for designing and implementing data pipelines using Azure data stack, focusing on modern data architecture, FinOps practices, and data governance.',
